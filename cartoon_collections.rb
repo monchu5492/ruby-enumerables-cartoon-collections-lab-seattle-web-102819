@@ -23,18 +23,21 @@ end
 
 def find_the_cheese(array_of_things)
   
-  stuff = array_of_things
-  i = 0
+  # stuff = array_of_things
+  # i = 0
   cheese_types = ["cheddar", "gouda", "camembert"]
 
-if cheese_types.include?(stuff[i])
-  return stuff[i] 
+# if cheese_types.include?(stuff[i])
+#   return stuff[i] 
 
-else
-  return nil
+# else
+#   return nil
  
- end
+# end
+
 end
+
+
 
 
 

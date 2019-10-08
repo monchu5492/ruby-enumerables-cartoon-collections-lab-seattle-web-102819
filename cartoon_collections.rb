@@ -23,21 +23,12 @@ end
 
 def find_the_cheese(array_of_things)
   
-  # stuff = array_of_things
-  # i = 0
   cheese_types = ["cheddar", "gouda", "camembert"]
 
-# if cheese_types.include?(stuff[i])
-#   return stuff[i] 
+   array_of_things.find do |item|
+     cheese_types.include?(item)
 
-# else
-#   return nil
- 
-# end
-array_of_things.find do |item|
-  cheese_types.include?(item)
-
-end
+ end
 end
 
 

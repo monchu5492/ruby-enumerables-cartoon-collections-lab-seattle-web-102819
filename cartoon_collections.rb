@@ -34,7 +34,10 @@ def find_the_cheese(array_of_things)
 #   return nil
  
 # end
-  
+array_of_things.find do |item|
+  cheese_types.
+
+end
 end
 
 
